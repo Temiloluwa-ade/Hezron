@@ -72,11 +72,11 @@
 			} else {
 				$('.monthly').removeClass("text-active");
 				$('.yearly').addClass("text-active");
-				$("#toggle-switch").removeAttr("checked");
+				$("#toggle-switch").removeAttr(`checked`);
 			}
 		});
 
-		// counter Satisfied clients
+		// counter client satisfaction
 		var maxScVal = 97;
 		var isc = parseInt($('.scVal').text());
 		var tim;
@@ -105,7 +105,7 @@
 				}
 				$('.fpVal').text(++ifP);
 
-			}, 1);
+			}, 100);
 		}
 		runfP();
 		//finished Projects
@@ -121,7 +121,7 @@
 					return;
 				}
 				$('.tMVal').text(++itm);
-			}, 3);
+			}, 100);
 		}
 		runtM();
 		//Team Members
@@ -138,7 +138,7 @@
 				}
 				$('.bPVal').text(++ibP);
 
-			}, 1);
+			}, 100);
 		}
 		runbP();
 		//blog post
