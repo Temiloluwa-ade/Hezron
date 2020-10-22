@@ -93,7 +93,7 @@
 		//Counters
 
 		// counter finished Projects
-		var maxfPVal = 3214;
+		var maxfPVal = 31;
 		var ifP = parseInt($('.fpVal').text());
 		var timfP;
 		function runfP() {
@@ -111,7 +111,7 @@
 		//finished Projects
 
 		//counter Team Members
-		var maxtMVal = 125;
+		var maxtMVal = 6;
 		var itm = parseInt($('.tMVal').text());
 		var timtM;
 		function runtM() {
@@ -121,13 +121,13 @@
 					return;
 				}
 				$('.tMVal').text(++itm);
-			}, 100);
+			}, 3);
 		}
 		runtM();
 		//Team Members
 
 		//counter blog post
-		var maxbPVal = 2135;
+		var maxbPVal = 15;
 		var ibP = parseInt($('.bPVal').text());
 		var timbP;
 		function runbP() {
