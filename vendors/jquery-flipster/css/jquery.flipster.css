@@ -6,6 +6,7 @@
   overflow-y: visible;
   position: relative;
 }
+
 .flipster:focus {
   outline: none;
 }
